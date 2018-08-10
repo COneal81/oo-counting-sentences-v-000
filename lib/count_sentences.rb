@@ -3,7 +3,10 @@ require 'pry'
 class String
 
   def sentence?
-    
+    if self 
+      TRUE
+    else
+      FALSE
   end
 
   def question?

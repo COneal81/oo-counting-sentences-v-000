@@ -31,7 +31,6 @@ class String
       self.split
     self.each do |words| 
       words.count
-  end
     end
   end
 end

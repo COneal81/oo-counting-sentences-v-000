@@ -27,8 +27,11 @@ class String
   end
 
   def count_sentences
-  if self.end_with?(sentence?, question?, exclamation?)
+    self.end_with?(sentence?, question?, exclamation?)
       self.split
+    self.each do |words| 
+      words.count
+  end
     end
   end
 end

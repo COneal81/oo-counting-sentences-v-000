@@ -30,7 +30,7 @@ class String
        array = self.split
        array.count
     
-    end
+    
     end
   
 end

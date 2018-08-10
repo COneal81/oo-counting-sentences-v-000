@@ -27,7 +27,8 @@ class String
   end
 
   def count_sentences
-      self.split do |word| self.count
+      if self.split do |word| 
+        return self.count
     end
     end
   

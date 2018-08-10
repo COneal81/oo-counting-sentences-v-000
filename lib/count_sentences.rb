@@ -29,5 +29,6 @@ class String
   def count_sentences
   if self.end_with?(sentence?, question?, exclamation?)
       self.split
+    end
   end
 end

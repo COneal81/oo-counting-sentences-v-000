@@ -30,7 +30,7 @@ class String
     self.end_with?(sentence?, question?, exclamation?)
       self.split
     self.each do |words| 
-      words.count
+      self.count
     end
   end
 end

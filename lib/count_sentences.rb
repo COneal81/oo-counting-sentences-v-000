@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if self 
+    if self.end
       TRUE
     else
       FALSE
